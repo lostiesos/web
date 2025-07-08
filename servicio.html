@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="header">
+         <div class="menu container">
+            <a href="#" class="logo">FOOD</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="#">servicio</a></li>
+                    <li><a href="bebidas.html">bebidas</a></li>
+                    <li><a href="contacto.html">contactos</a></li>
+                </ul>
+            </nav>
+         </div>
+         <div class="texto">
+            <h1>CONOCE NUESTRO SERVICIO</h1>
+         </div>
+    </header>
+    <div class="domicilio">
+        <h1>A DOMICILIO</h1>
+        <h1>Con un costo extra de $50.00</h1>
+                <img src="images/right.png" alt="">
+        <input type="submit" value="enviar">
+        <p>
+                    Calle:<input type="text" name="control2" size="45" maxlength="60"/>
+                    <br/><br/>
+                    Colonia:<input type="text" name="control2" size="45" maxlength="60"/>
+                    <br/><br/>
+                    Núm. tel.:<input type="text" name="control2" size="46" maxlength="60"/>
+                    <br/><br/>
+                    Num. #:<input type="text" name="control2" size="47" maxlength="50"/>
+                    <br/><br/>
+         </p>   
+    </div>
+    <div class="reservacion">
+       <form action="servicio.html">
+            <h2>SELECIONA TU MESA</h2>
+            <p>
+            <label for="mesa-seleccionada">seleccione su mesa</label>
+            <select name="mesa" id="mesa-seleccionada">
+            <option value="">por favor seleccione una mesa</option>
+            <option value="mesa1">mesa 1 son solo para 3 personas</option>
+            <option value="mesa2">mesa 2 son para 5 personas</option>
+            <option value="mesa3">mesa 3 son para 7 personas</option>
+            <option value="mesa-vip">mesa vip son para 10 personas àrea privada</option>
+            <option value="mesa-terraza">mesa en la terraza son para 5 personas</option>
+            <option value="mesa-ventana">mesa en la ventana para 3 personas</option>
+            <option value="mesa-mirador">mesa junto al mirador para 7 personas</option>
+            </select>
+        </p>
+            <p>
+                hora de la reserva:<input type="time" name="control-hora"/>
+            </p>
+            <p>
+                Fecha de la reserva: <input type="date" name="control-fecha"/>
+            </p>
+            <p>
+            nombre del reservador:<input type="text" name="control2" size="47" maxlength="60"/>
+            </p>
+            <br/><br/>
+            </form>
+            <div class="enviar">
+            <input type="submit" value="enviar">
+            <input type="submit" value="borrar">
+            </div>
+    </div>
+    <div class="pedido">
+        <form action="servicio.html">
+        <h1>PEDIDOS AL NÙM. 7471672619</h1>
+        <br/><br/>
+        <label for="platillo">Platillo</label>
+        <select name="platillo" id="platillo">
+            <option value="">Burrito/$300.00</option>
+            <option value="">Albóndiga/$200.00</option>
+            <option value="">Torta cubana/$375.00</option>
+            <option value="">Milanesa/$350.00</option>
+            <option value="">Pollo frito/$245.00</option>
+            <option value="">Mole poblano/$300.00</option>
+            <option value="">Steak frites/$170.00</option>
+            <option value="">Carne a la parrilla/$390.00</option>
+            <option value="">Empanadillas/4399.00</option>
+            <option value="">Pescado blanco/$320.00</option>
+            <option value="">Sopa de lentejas/$120.00</option>
+            <option value="">Tostada/$150.00</option>
+            <option value="">Tortitas de papa/$225.00</option>
+            <option value="">Alambre/$370.00</option>
+            <option value="">Pozole verde/$300.00 </option>
+            <option value="">Estofado de carne/$320.00</option>
+            <option value="">Carne a la parrilla/$200.00</option>
+            <option value="">Lomo saltado/$375.00</option>
+            <option value="">Ensalada de pollo quinoa/$450.00</option>
+            <option value="">Ensalada capresecon pesto y piñas/$290.00</option>
+            <option value="">Plato combinado de fideos/$305.00</option>
+            </select>
+            </form>
+            <br/><br/>
+            Cantidad:<input type="text" name="control2" size="45" maxlength="60"/>
+            <br/><br/>
+            <label for="metodo">metodo de pago</label>
+            <select name="metodo" id="metodo de pago">
+                <option value="">efectivo</option>
+                <option value="">transferencia</option>
+            </select>
+            <br/><br/>
+            <div class="enviar">
+            <input type="submit" value="enviar">
+            </div>
+    </div>
+</body>
+</html>
